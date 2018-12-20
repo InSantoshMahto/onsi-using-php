@@ -1,0 +1,23 @@
+body
+{
+	background-color: #c9dddd;
+}
+.tMenu
+{
+	text-align: center;
+	background-color: #a3cece;
+}
+.tBodyOdd
+{
+	text-align: center;
+	background-color: #b1b2a4;
+}
+.tBodyEven
+{
+	text-align: center;
+	background-color: #b1a4b2;
+}
+th
+{
+	 text-align: center;
+}
