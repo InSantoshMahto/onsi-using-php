@@ -13,21 +13,21 @@ $enableSandbox = false;  // false => live or true => sandbox
 
 // Database settings. Change these for your database configuration.
 $dbConfig = [
-  'host' => 'localhost',
-  'username' => 'onsi',
-  'password' => 'onsi',
-  'name' => 'speakin'
+  'host' => 'your host',
+  'username' => 'username',
+  'password' => 'password',
+  'name' => 'db name'
 ];
 
 // PayPal settings. Change these to your account details and the relevant URLs
 // for your site.
 $paypalConfig = [
   // sandbox
-  // 'client_id' => 'Af-moBnt8lvXRkSigp3nM-QRK_6vhMOzXXDEkK_sNT_b_jZWlRfk4F8xx-OMBR1hkTWN0cUc9hG9JEcy',
-  // 'client_secret' => 'EGa-FMl-HsWEMLo7KnclaCe144z1uNkyhNTizari9u47DW9a28TfCALFLyR9t03RRudDykVHvXrHsLXh',
+  // 'client_id' => 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+  // 'client_secret' => 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
   // live
-  'client_id' => 'AfwAcEkHIHgzXlj0N40iXPd6hkCNtBsgzcGd8dgVmlSyPkFso0vKLlkSsRes5_korWGOnjE128NiUCO2',
-  'client_secret' => 'EBxksWf8F1MBBDfiVOZAfoUZwCSlCUQZCXcUpRrY8C9UAfaqsxcuvfuElAOvPUKL4vWkTDGJkndcH3By',
+  'client_id' => 'XXXXXXXXXXX',
+  'client_secret' => 'XXXXXXXXXXX',
   'return_url' => 'http://localhost/paypal/success.php',
   'cancel_url' => 'http://localhost/paypal/cancel.php'
 ];
