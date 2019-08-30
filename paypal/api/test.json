@@ -1,0 +1,39 @@
+{
+  "intent": "sale",
+  "payer": {
+    "payment_method": "paypal"
+  },
+  "transactions": [
+    {
+      "amount": {
+        "total": "10.00",
+        "currency": "INR"
+      },
+      "related_resources": []
+    }
+  ],
+  "redirect_urls": {
+    "return_url": "http://localhost/success.php",
+    "cancel_url": "http://localhost/cancel.php"
+  },
+  "id": "PAYID-LVT3HZA28B99054FL0866031",
+  "state": "created",
+  "create_time": "2019-08-29T11:15:47Z",
+  "links": [
+    {
+      "href": "https://api.sandbox.paypal.com/v1/payments/payment/PAYID-LVT3HZA28B99054FL0866031",
+      "rel": "self",
+      "method": "GET"
+    },
+    {
+      "href": "https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-5KP75030XU7965359",
+      "rel": "approval_url",
+      "method": "REDIRECT"
+    },
+    {
+      "href": "https://api.sandbox.paypal.com/v1/payments/payment/PAYID-LVT3HZA28B99054FL0866031/execute",
+      "rel": "execute",
+      "method": "POST"
+    }
+  ]
+}
