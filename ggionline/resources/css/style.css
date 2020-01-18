@@ -1,0 +1,21 @@
+ #globleHeading {
+ 	margin-top: 10px;
+ 	padding-top: 40px;
+ 	padding-bottom: 10px;
+ 	background-color: #0099cc;
+ 	color: #fff;
+ 	font-family: Comic Sans MS;
+ 	font-weight: bold;
+ }
+ .customBlock {
+ 	background-color: #F1F1F1;
+ 	font-family: Consolas;
+ 	font-weight: bold;
+ }
+ .customHeader {
+ 	background-color: #D1DDE4;
+ 	padding-bottom: 3px;
+ 	font-family: Miltonian Tattoo;
+ 	font-weight: bold;
+ 	width: 100%;
+ }

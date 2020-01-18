@@ -1,0 +1,21 @@
+body {
+  padding-top: 0rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+/*   withoutcontainer class with text justify properties    */
+.without-container {
+	text-align: justify;
+  	background-color: #aef;
+}
+
+/*   this is a starter class with starter templates without class       */
+.without-container-with-starter {
+	text-align: justify;
+	margin-top: 3rem;
+  	padding: 5px 10px 5px 10px;
+  	background-color: #aef;
+}

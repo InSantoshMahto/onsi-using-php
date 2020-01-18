@@ -1,0 +1,14 @@
+
+/* style for only applications filre and folders */
+.termsAndConditions {
+	background-color: #0c9;
+	color: #fff;
+	font-family: Lucida Console;
+	width: 100%;
+	height: 60px;
+	overflow: auto;
+}
+/*
+input[type=text], input[type=email], input[type=number], input[type=date], input[type=radio], input[type=checkox], select option {
+	background-color: #ccffcc;
+}
